@@ -6,6 +6,7 @@ import java.sql.Timestamp;
 import javax.persistence.*;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
 @Table(name="user_info")
@@ -19,8 +20,9 @@ public class User implements Serializable{
 	
 	@Column(name = "user_name")
     private String username;
-	
+
 	@Column(name = "password")
+	//@JsonIgnore
     private String password;
 	
 	@Column(name = "user_type")

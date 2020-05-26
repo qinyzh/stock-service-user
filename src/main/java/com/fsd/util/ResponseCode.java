@@ -17,5 +17,9 @@ public class ResponseCode {
     public static final int FILE_FORMAT_ERROR = 6001;
     //数据访问失败
     public static final int ERROR_ACCESS_DB = 6002;
+    //密码错误
+    public static final int ERROR_PASSWORD = 6003;
+    //
+    public static final int BAD_CREDENTIALS = 6004;
 
 }

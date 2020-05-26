@@ -16,6 +16,14 @@ spring:
         dialect: org.hibernate.dialect.MySQL5InnoDBDialect
         hbm2ddl:
           auto: update
+  mail:
+    host: smtp.qq.com
+    from: 594976612@qq.com
+    username: 594976612@qq.com
+    password: password
+    protocol: smtp
+    default-encoding: UTF-8
+    confirmlink: http://localhost:9004/auth/confirm/
 
 eureka:
   instance:
